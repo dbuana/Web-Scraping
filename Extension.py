@@ -19,7 +19,7 @@ def htmlContent(content):
 	pass
 
 	
-def UCLdata(url):
+def getUrl(url):
 	# A rought draft of the code...
 	try:
 		with closing(get(url, stream=True)) as resp:
@@ -38,7 +38,5 @@ def UCLdata(url):
 	else:
 		return None
 
-print(UCLdata("Google.com"))
-
-
-
+# It will execute the HTML format
+print(getUrl("https://www.google.com/"))
