@@ -9,4 +9,4 @@ Attachments: BeautifulSoup, this library may be downloaded by typing "pip instal
 
 Download this program and seek behind the webpages, or create a pull-request to reach it's sophisticated potential. 
 
-Note: The program will be updated frequently, to seek it's hidden potential
+Note: The program will be updated frequently, to seek it's hidden potential. Next update will be uploaded tomorrow. 
