@@ -8,3 +8,5 @@ sophisticated purpose. Seeking the sophistication; upon it's purpose.
 Attachments: BeautifulSoup, this library may be downloaded by typing "pip install BeautifulSoup4" in command prompt, or CMD. 
 
 Download this program and seek behind the webpages, or create a pull-request to reach it's sophisticated potential. 
+
+Note: The program will be updated frequently, to seek it's hidden potential
