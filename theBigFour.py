@@ -52,5 +52,9 @@ def googleData():
 		googleUrl("https://www.google.com/")
 		return ("You may be assisted to {0} and {1}" + resp.content(url))
 	elif user == "gmail" or user == "Gmail":
-		# Type in the code...
-		pass
+		googleUrl("https://www.google.com/gmail/about/#")
+		return ("you may be assisted to {0} and {1}" + googleUrl("https://www.google.com/gmail/about/#") + resp.content("https://www.google.com/gmail/about/#"))
+	else:
+		return None
+# Calling the function	
+print(googleData())
