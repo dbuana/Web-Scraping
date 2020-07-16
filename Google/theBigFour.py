@@ -1,12 +1,3 @@
-# This tab is mainly used to scrap data from the big 4 company.
-# 1). Google inc.
-# 2). FaceBook
-# 3). Amazon
-# 4). Apple inc. 
-
-# The Google data scrap
-# Task: Give a user accesibilty to go anywhere, and find data; in form of HTML. In any companies
-# that posseses correlation with Google; like YouTube, Gmail and etc. Good luck!
 from requests import get
 from requests.exceptions import RequestException
 from contextlib import closing
@@ -63,5 +54,5 @@ def googleData():
 	else:
 		return None
 
-
-print(googleData())
+# Finished with the Google Scraping
+print(googleData()) # Calling the function
