@@ -22,8 +22,8 @@ def amazonData(url):
 					result = resp.content(["Content-Type"].lower())
 					# Calling the HTML format, therefore, this program maybe; further advanced
 					return (result == 100 or result is not None > -1)
-			else:
-				# When the amazon URL is 
-				result = resp.content("html.parser", url)
-				amazonUrl =False
-				return result
+				  else:
+				        # When the amazon URL is 
+					result = resp.content("html.parser", url)
+					amazonUrl =False
+					return result
